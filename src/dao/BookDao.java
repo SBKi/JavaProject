@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import vo.BookVo;
-import vo.StudentVo;
 
 public class BookDao {
 	private static BookDao dao = new BookDao();

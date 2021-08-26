@@ -7,7 +7,6 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-@Builder
 
 public class BookVo {
 	private String bNo;
