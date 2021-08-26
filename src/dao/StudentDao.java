@@ -19,7 +19,7 @@ public class StudentDao {
 		return dao;
 	}
 
-	// 학생 목록
+	// 전체 학생 목록
 	public List<StudentVo> getStudentList() {
 		List<StudentVo> list = new ArrayList<StudentVo>();
 		Connection conn = OCU.connect();
@@ -161,7 +161,7 @@ public class StudentDao {
 		}
 	}
 
-	// 학생 검색
+	// 학생 한명 검색
 	public StudentVo getStudent(String no) {
 		Connection conn = OCU.connect();
 		PreparedStatement pstmt = null;

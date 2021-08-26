@@ -27,7 +27,7 @@ public class JDialogEx extends JDialog {
 	 */
 //	public static void main(String[] args) {
 //		try {
-//			JDialogEx dialog = new JDialogEx("aa", "aa");
+//			JDialogEx dialog = new JDialogEx();
 //			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
 //			dialog.setVisible(true);
 //		} catch (Exception e) {

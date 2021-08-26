@@ -29,7 +29,7 @@ public class BorrowDao {
 
 		try {
 
-			String sql = "INSERT INTO BORROW VALUES(BORROW_SEQ.NEXTVAL,?,?,sysdate,sysdate+3,'F')"; //
+			String sql = "INSERT INTO BORROW VALUES(BORROW_SEQ.NEXTVAL,?,?,sysdate,sysdate+3,'F')"; 
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, Student_no);
 			pstmt.setString(2, B_no);

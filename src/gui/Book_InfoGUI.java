@@ -37,15 +37,13 @@ import vo.StudentVo;
 public class Book_InfoGUI extends JFrame implements ActionListener, MouseListener {
 	BorrowDao br_dao = BorrowDao.getInstance();
 	BookDao b_dao = BookDao.getInstance();
-	JLabel l1, l2;
-	JLabel lbSN, lbBN, lbBD, lbRD, lbSNo, lbBNo;
-	JTextField t1;
+	JLabel l1,l2,lbSN, lbBN, lbBD, lbRD, lbSNo, lbBNo;
+	JTextField textField;
 	JButton b1, b2;
 	JTable table;
 	DefaultTableModel dm;
 	JScrollPane tableScroll;
 	JPanel contentPane;
-	JTextField textField;
 
 	public Book_InfoGUI() {
 		createMenu(); // 메뉴바
